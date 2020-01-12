@@ -1,4 +1,4 @@
-CREATE TABLE schema3.device (
+CREATE TABLE k28z1ig8ban2qz4c.device (
 
 id INT NOT NULL,
 
@@ -10,7 +10,7 @@ phone VARCHAR(45) NULL,
 
 PRIMARY KEY (id));
 
-ALTER TABLE schema3.device
+ALTER TABLE k28z1ig8ban2qz4c.device
 
 CHANGE COLUMN id id INT(11) NOT NULL AUTO_INCREMENT ,
 

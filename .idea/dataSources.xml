@@ -13,5 +13,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://sabaik6fx8he7pua.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/k28z1ig8ban2qz4c</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="heroku_f3dd9f4ce9423e3@eu-cdbr-west-02.cleardb.net" uuid="766f66aa-67ff-4bb1-9f20-7f639d781545">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_f3dd9f4ce9423e3?reconnect=true</jdbc-url>
+    </data-source>
   </component>
 </project>

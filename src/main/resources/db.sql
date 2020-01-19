@@ -1,4 +1,4 @@
-CREATE TABLE k28z1ig8ban2qz4c.device (
+CREATE TABLE heroku_f3dd9f4ce9423e3.device (
 
 id INT NOT NULL,
 
@@ -10,7 +10,7 @@ phone VARCHAR(45) NULL,
 
 PRIMARY KEY (id));
 
-ALTER TABLE k28z1ig8ban2qz4c.device
+ALTER TABLE heroku_f3dd9f4ce9423e3.device
 
 CHANGE COLUMN id id INT(11) NOT NULL AUTO_INCREMENT ,
 

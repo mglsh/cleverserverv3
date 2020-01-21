@@ -1,3 +1,3 @@
-web: java $JAVA_OPTS -jar target/clever-server-v3.war --port $PORT target/*.war
+web: java $JAVA_OPTS -jar target/clever-server-v3.jar --port $PORT target/*.war
 
 

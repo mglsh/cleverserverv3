@@ -7,17 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/schema3</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="k28z1ig8ban2qz4c@sabaik6fx8he7pua.chr7pe7iynqr.eu-west-1.rds.amazonaws.com" uuid="40b9d7e7-5bb9-4e6f-9bbe-b81e3ce435a4">
+    <data-source source="LOCAL" name="jdbc:mysql://b8rg15mwxwynuk9q.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/&#9;zw0zfxcbeqwdox0e" uuid="aafe8c23-1574-4631-83a0-1cf127aea1b8">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://sabaik6fx8he7pua.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/k28z1ig8ban2qz4c</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="heroku_f3dd9f4ce9423e3@eu-cdbr-west-02.cleardb.net" uuid="766f66aa-67ff-4bb1-9f20-7f639d781545">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_f3dd9f4ce9423e3?reconnect=true</jdbc-url>
+      <jdbc-url>jdbc:mysql://b8rg15mwxwynuk9q.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/	zw0zfxcbeqwdox0e</jdbc-url>
     </data-source>
   </component>
 </project>

@@ -110,7 +110,18 @@
                   </execution>
               </executions>
           </plugin>
-
+          <plugin>
+              <groupId>org.selenide.examples</groupId>
+              <artifactId>maven-jar-plugin</artifactId>
+              <version>1.0</version>
+              <configuration>
+                  <archive>
+                      <manifest>
+                          <mainClass>com.mglsh.CleverServerV3Application</mainClass>
+                      </manifest>
+                  </archive>
+              </configuration>
+          </plugin>
       </plugins>
     </pluginManagement>
   </build>

@@ -75,10 +75,14 @@
     <finalName>clever-server-v3</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <plugin>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
+          <plugin>
+              <groupId> org.springframework.boot </groupId>
+              <artifactId> spring-boot-maven-plugin </artifactId>
+              <configuration>
+                  <mainClass>com.mglsh.CleverServerV3Application</mainClass>
+              </configuration>
+              <version>1.5.8.RELEASE</version>
+          </plugin>
 
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -91,36 +95,14 @@
                           <artifactItems>
                               <artifactItem>
                                   <groupId>com.heroku</groupId>
-                                  <artifactId>clever-server-v3</artifactId>
+                                  <artifactId>webapp-runner</artifactId>
                                   <version>9.0.30.0</version>
-                                  <destFileName>clever-server-v3.jar</destFileName>
+                                  <destFileName>webapp-runner.jar</destFileName>
                               </artifactItem>
-                              <appName>clever-server-v3</appName>
-                              <includeTarget>false</includeTarget>
-                              <includes>
-                                  <include>${project.build.directory}/${project.build.finalName}.jar</include>
-                              </includes>
-                              <jdkVersion>${java.version}</jdkVersion>
-                              <processTypes>
-                                  <web>java $JAVA_OPTS -jar ${project.build.directory}/${project.build.finalName}.jar</web>
-                              </processTypes>
                           </artifactItems>
-
                       </configuration>
                   </execution>
               </executions>
-          </plugin>
-          <plugin>
-              <groupId>org.selenide.examples</groupId>
-              <artifactId>maven-jar-plugin</artifactId>
-              <version>1.0</version>
-              <configuration>
-                  <archive>
-                      <manifest>
-                          <mainClass>com.mglsh.CleverServerV3Application</mainClass>
-                      </manifest>
-                  </archive>
-              </configuration>
           </plugin>
       </plugins>
     </pluginManagement>

@@ -1,6 +1,0 @@
-com\mglsh\CleverServerV3Application.class
-com\mglsh\config\DatabaseConfig.class
-com\mglsh\model\Device.class
-com\mglsh\controller\DeviceController.class
-com\mglsh\repository\DeviceRepository.class
-com\mglsh\ServletInitializer.class

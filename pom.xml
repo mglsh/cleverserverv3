@@ -107,7 +107,7 @@
               <configuration>
                   <archive>
                       <manifest>
-                          <mainClass>com.mglsh.CleverServerV3Application.java</mainClass>
+                          <mainClass>CleverServerV3Application.java</mainClass>
                       </manifest>
                   </archive>
               </configuration>

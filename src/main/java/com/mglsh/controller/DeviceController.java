@@ -18,6 +18,7 @@ public class DeviceController {
         this.repository = contactRepository;
     }
 
+
     @GetMapping
     public List findAll() {
 

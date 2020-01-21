@@ -91,9 +91,9 @@
                           <artifactItems>
                               <artifactItem>
                                   <groupId>com.heroku</groupId>
-                                  <artifactId>webapp-runner</artifactId>
+                                  <artifactId>clever-server-v3</artifactId>
                                   <version>9.0.30.0</version>
-                                  <destFileName>webapp-runner.jar</destFileName>
+                                  <destFileName>clever-server-v3.jar</destFileName>
                               </artifactItem>
                           </artifactItems>
                       </configuration>
@@ -107,7 +107,7 @@
               <configuration>
                   <archive>
                       <manifest>
-                          <mainClass>CleverServerV3Application.java</mainClass>
+                          <mainClass>com/mglsh/CleverServerV3Application.java</mainClass>
                       </manifest>
                   </archive>
               </configuration>
